@@ -13,7 +13,7 @@ function bot() {
     document.getElementById("input").value = "";              // output response
     document.getElementById("input").placeholder = "cm"  		// clear text box
     question = '<h1>Input your height</h1>';			    	// load next question		
-    setTimeout(timedQuestion, 2000);									// output next question after 2sec delay
+    setTimeout(timedQuestion, 1500);									// output next question after 2sec delay
     }
 
     else if (questionNum == 1) {
